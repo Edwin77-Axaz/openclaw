@@ -1,6 +1,5 @@
 node_modules
 **/node_modules/
-.env
 docker-compose.override.yml
 docker-compose.extra.yml
 docker-compose.sandbox.yml
@@ -195,3 +194,7 @@ extensions/**/.openclaw-runtime-deps-stamp.json
 
 # Output dir for scripts/run-opengrep.sh (local opengrep scans)
 /.opengrep-out/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

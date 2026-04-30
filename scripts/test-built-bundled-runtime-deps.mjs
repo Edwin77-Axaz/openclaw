@@ -12,6 +12,9 @@ import {
   collectRootDistBundledRuntimeMirrors,
 } from "./lib/bundled-plugin-root-runtime-mirrors.mjs";
 import { parsePackageRootArg } from "./lib/package-root-args.mjs";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const { packageRoot } = parsePackageRootArg(
   process.argv.slice(2),
