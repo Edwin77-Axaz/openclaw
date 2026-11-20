@@ -16,6 +16,6 @@
     }
   },
   "scripts": {
-    "build": "node init && tsdown src/index.ts --no-config --platform node --format esm --dts --out-dir dist --clean"
+    "build": "tsdown src/index.ts --no-config --platform node --format esm --dts --out-dir dist --clean"
   }
 }
